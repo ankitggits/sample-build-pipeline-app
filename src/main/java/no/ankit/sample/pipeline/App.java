@@ -5,8 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Arrays;
-
 /**
  * Created by Ankit on 03-08-2017.
  */
@@ -16,6 +14,7 @@ public class App {
 
     @RequestMapping("/")
     public String home() {
+        System.out.println("new branch change");
         return "Hello World!";
     }
 
