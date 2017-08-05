@@ -23,6 +23,7 @@ public class App {
         System.out.println("hiiiii");
         System.out.println("hiiiii-2");
         System.out.println("hiiiii-3");
+        System.out.println("new branch change");
         SpringApplication.run(App.class, args);
         System.out.println("master-change-1");
         System.out.println("master-change-2");
