@@ -18,6 +18,6 @@ public class AppTest {
 
     @Test
     public void testHome(){
-        Assert.assertTrue(app.home().equals("HelloWorld!"));
+        Assert.assertTrue(app.home().equals("Hello World!"));
     }
 }
