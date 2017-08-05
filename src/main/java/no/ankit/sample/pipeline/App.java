@@ -19,10 +19,6 @@ public class App {
         return "Hello World!";
     }
 
-    @RequestMapping("/new")
-    public String homeNew() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(App.class, args);
