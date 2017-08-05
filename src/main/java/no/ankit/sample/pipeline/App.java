@@ -5,8 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Arrays;
-
 /**
  * Created by Ankit on 03-08-2017.
  */
@@ -22,5 +20,6 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(App.class, args);
+        System.out.println("master-change-1");
     }
 }
