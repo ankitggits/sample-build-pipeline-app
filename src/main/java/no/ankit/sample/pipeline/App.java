@@ -22,5 +22,6 @@ public class App {
         SpringApplication.run(App.class, args);
         System.out.println("master-change-1");
         System.out.println("master-change-2");
+        System.out.println("master-change-3");
     }
 }
